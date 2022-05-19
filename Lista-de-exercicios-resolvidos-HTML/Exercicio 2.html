@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Formulário de cadastro de novos usuários</title>
+</head>
+
+<body>
+<h3>Formulário de cadastro de novos usuários</h3>
+
+<form autocomplete="on">
+<p>   
+    <label for="nome">Nome: </label>
+    <input type="text" placeholder="Digite seu nome" name="nome">
+</p> 
+<p>
+    <label for="cpf">Cpf: </label>
+    <input type="text" placeholder="Digite seu Cpf" name="Cpf">
+</p> 
+<p>
+    <label for="data-de-nascimento">Data de nascimento: </label>
+    <input type="date" name="data-de-nascimento"/>
+</p>
+<p>
+    <label for="idade">Idade: </label>
+    <input type="number" name="idade" max="130" min="0" />
+</p> 
+<p>
+    <label for="sexo">Sexo: </label>
+    <input type="radio" name="sexo"/> Masculino
+    <input type="radio" name="sexo"/> Feminino
+</p> 
+<p>
+    <label for="uf">Estado: </label>
+    <select nome="uf">
+        <option value="Acre">AC</option>
+        <option value="Alagoas">AL</option>
+        <option value="Amapá">AP</option>
+        <option value="Amazonas">AM</option>
+        <option value="Bahia">BA</option>
+        <option value="Ceara">CE</option>
+        <option value="Distrito Federal">DF</option>
+        <option value="Espírito Santo">ES</option>
+        <option value="Goiás">GO</option>
+        <option value="Maranhão">MA</option>
+        <option value="Mato Grosso">MT</option>
+        <option value="Mato Grosso do Sul">MS</option>
+        <option value="Minas Gerais">MG</option>
+        <option value="Pará">PA</option>
+        <option value="Paraíba">PB</option>
+        <option value="Paraná">PR</option>
+        <option value="Pernambuco">PE</option>
+        <option value="Rio de Janeiro">RJ</option>
+        <option value="Rio Grande do Norte">RN</option>
+        <option value="Rio Grande do Sul">RS</option>
+        <option value="Roraima">RO</option>
+        <option value="Rondônia">RR</option>
+        <option value="Santa Catarina">SC</option>
+        <option value="São Paulo">SP</option>
+        <option value="Sergipe">SE</option>
+        <option value="	Tocantins">TO</option>
+    </select> 
+</p>
+<p>
+    <label for="Conte-nos">Conte-nos brevemente porque deseja utilizar o nosso sistema</label>
+    <br/><br/>
+    <textarea cols="50" rows="5" name="conte-nos"></textarea>
+</p>
+
+    <input type="submit" value="Enviar"/>
+
+</form>
+
+
+ </body>
+
+
+
+
+
+</html>
